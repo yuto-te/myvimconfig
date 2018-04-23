@@ -15,7 +15,7 @@ ln -sf vim/dein.toml ~/dein.toml
 
 pluginを追加するときはdein.tomlに
 ```
-[[plugin]]
+[[plugins]]
 repo = "repository/path" e.g.'Shougo/dein.vim'
 ```
 を追加して，.vimrcに必要なものを追記する．
